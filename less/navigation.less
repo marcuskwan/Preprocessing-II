@@ -9,9 +9,22 @@ align-items: baseline;
 border-bottom: 1px dashed @navigation-border;
 padding: 0% 0% 2% 0%;
 margin: 2% 0% 0% 0%;
+@media @mobile {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
     nav {
         display: flex;
         justify-content: space-evenly;
+        @media @mobile {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: space-around;
+          align-items: baseline;
+          margin-top: 2%;
+        }
         a {
             text-decoration: none;
             color: black;

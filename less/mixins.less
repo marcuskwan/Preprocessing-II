@@ -12,4 +12,7 @@
 
 .btn {
     .btn-mixin(@button-bg,2rem,white,10px,center,4% 0%,83%);
+    @media @mobile {
+        .btn-mixin(@button-bg,2rem,white,10px,center,4% 0%,100%);
+      }
 }
