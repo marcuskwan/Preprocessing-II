@@ -207,6 +207,7 @@ img {
 }
 .top nav {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-evenly;
 }
 @media (max-width: 500px) {
@@ -222,7 +223,7 @@ img {
 .top nav a {
   text-decoration: none;
   color: black;
-  padding-right: 4%;
+  margin-right: 30px;
 }
 .footer {
   width: 100%;
