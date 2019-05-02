@@ -1,18 +1,18 @@
 // Mixins in here
 
 .btn-mixin(@bg-color,@font-size,@font-color,@border-radius,@text-align,@padding,@width) {
-    background-color: @bg-color;
-    font-size: @font-size;
-    color: @font-color;
-    border-radius: @border-radius;
-    text-align: @text-align;
-    padding: @padding;
-    width: @width;
+  background-color: @bg-color;
+  font-size: @font-size;
+  color: @font-color;
+  border-radius: @border-radius;
+  text-align: @text-align;
+  padding: @padding;
+  width: @width;
 }
 
 .btn {
-    .btn-mixin(@button-bg,2rem,white,10px,center,4% 0%,83%);
-    @media @mobile {
-        .btn-mixin(@button-bg,2rem,white,10px,center,4% 0%,100%);
-      }
+  .btn-mixin(@button-bg, 2rem, white, 10px, center, 4% 0%, 83%);
+  @media @mobile {
+    .btn-mixin(@button-bg, 2rem, white, 10px, center, 4% 0%, 100%);
+  }
 }

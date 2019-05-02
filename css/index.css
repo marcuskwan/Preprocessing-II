@@ -1,5 +1,5 @@
 .btn {
-  background-color: #17A2B8;
+  background-color: #17a2b8;
   font-size: 2rem;
   color: white;
   border-radius: 10px;
@@ -9,7 +9,7 @@
 }
 @media (max-width: 500px) {
   .btn {
-    background-color: #17A2B8;
+    background-color: #17a2b8;
     font-size: 2rem;
     color: white;
     border-radius: 10px;
@@ -139,7 +139,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 table {
@@ -154,14 +154,14 @@ html {
 }
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
 }
 h1 {
   font-size: 4rem;
@@ -194,7 +194,7 @@ img {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: baseline;
-  border-bottom: 1px dashed #C0C0C0;
+  border-bottom: 1px dashed #c0c0c0;
   padding: 0% 0% 2% 0%;
   margin: 2% 0% 0% 0%;
 }
@@ -228,7 +228,7 @@ img {
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
-  background: #FFEBCD;
+  background: #ffebcd;
 }
 .footer p {
   text-align: center;
@@ -245,7 +245,7 @@ img {
   }
 }
 .home header {
-  border-bottom: 1px dashed #C0C0C0;
+  border-bottom: 1px dashed #c0c0c0;
 }
 .home header .header-text {
   padding: 2% 0%;
@@ -297,7 +297,7 @@ img {
 }
 .home .inverse-content {
   padding-bottom: 30px;
-  border-bottom: 2px dashed #C0C0C0;
+  border-bottom: 2px dashed #c0c0c0;
 }
 @media (max-width: 500px) {
   .home .inverse-content {
@@ -340,7 +340,7 @@ img {
 }
 .home .content-pick {
   padding-top: 30px;
-  border-top: 2px dashed #C0C0C0;
+  border-top: 2px dashed #c0c0c0;
   display: flex;
   justify-content: space-between;
 }
