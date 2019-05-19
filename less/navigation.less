@@ -1,1 +1,20 @@
 // Navigation Styles here
+.border {
+    border-bottom: 2px dashed #c0c0c0;
+    .nav-container {
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: baseline;
+        nav {
+            a {
+                text-decoration: none;
+                color: black;
+                // why can't I do 4% instead of 20px ???
+                margin: 0% 20px;
+            }
+        }
+    }
+}
