@@ -12,3 +12,32 @@
 @shark: #212529;
 @eastern-blue: #17A2B8;
 @sandy-beach: #FFEBCD;
+
+@desktop: (min-width: 500px);
+
+// parametric mixins 
+
+.button (@width,@height,@radius,@color) {
+    width: @width;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: @height;
+    background-color: @button-bg;
+    border-radius: @radius;
+    color: @color;
+    font-size: 1.8rem;
+}
+
+.flex (@direction,@wrap,@justify,@align) {
+    display: flex;
+    flex-direction: @direction;
+    flex-wrap: @wrap;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.display (@display) {
+    display: @display;
+}

@@ -1,20 +1,36 @@
 // Navigation Styles here
 .border {
-    border-bottom: 2px dashed #c0c0c0;
-    .nav-container {
-        max-width: 800px;
-        margin: 0 auto;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-        align-items: baseline;
-        nav {
-            a {
-                text-decoration: none;
-                color: black;
-                // why can't I do 4% instead of 20px ???
-                margin: 0% 20px;
-            }
-        }
+  border-bottom: 2px dashed @silver;
+  .nav-container {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    @media @desktop {
+      max-width: 800px;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: baseline;
     }
+
+    nav {
+      width: 500px;
+      max-width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-evenly;
+      @media @desktop {
+        max-width: 800px;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+        // why can't I do 4% instead of 20px ???
+        @media @desktop {
+          margin: 0% 20px;
+        }
+      }
+    }
+  }
 }
